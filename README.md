@@ -18,7 +18,7 @@ You'll need to install a few things before you have a working copy of the projec
 
 ## 2. Install node.js and npm:
 
-https: // nodejs.org / en / 
+https://nodejs.org/en/download/ 
 
 
 ## 3. Install dependencies:

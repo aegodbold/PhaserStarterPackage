@@ -14,13 +14,7 @@ pulled 2017
 # Setup
 You'll need to install a few things before you have a working copy of the project.
 
-## 1. Clone this repo:
-
-Navigate into your workspace directory.
-
-Run:
-
-```git clone https: // github.com / lean / phaser - es6 - webpack.git```
+## 1. Clone or download this repo
 
 ## 2. Install node.js and npm:
 

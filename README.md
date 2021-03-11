@@ -48,5 +48,5 @@ Run:
 This will optimize and minimize the compiled bundle.
 
 # Putting the Project Online
-Copy the index.html file, the assets folder, and the dist folder to a folder outside of your project named "Build".
+Copy the ```index.html``` file, the ```assets``` folder, and the ```dist``` folder to a folder outside of your project named "Build".
 Zip the folder and upload it to itch.io as a play in web game.

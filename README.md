@@ -1,4 +1,10 @@
 # Ashley Godbold's Recommended Starting Files for Phaser + ES6 + WebPack
+I recommend all my students with this project when creating a Phaser game. 
+
+It is a template that has the following that you would not get if you simply downloaded phaser:
+- States for Boot, Splash, Start, Game set up
+- Autoscaling, the game will scale with the browswer window
+- Problems with suspended state and AudioContext adressed 
 
 
 ## Modified from:

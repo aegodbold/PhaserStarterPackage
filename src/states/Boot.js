@@ -33,6 +33,11 @@ export default class extends Phaser.State {
         //this.loadingBackground = this.add.sprite(this.game.world.centerX, this.game.world.centerY, 'loadingBackground')
         //this.loadingBackground.anchor.setTo(0.5);
         
+        //fixes the sound being suspended without a click in Chrome
+		if (game.sound.context.state === 'suspended') {
+			game.sound.context.resume();
+		}
+        
         this.game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
         //have the game centered horizontally
         this.scale.pageAlignHorizontally = true;

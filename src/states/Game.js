@@ -9,10 +9,6 @@ export default class extends Phaser.State {
 
 	// Called after init(). Use for loading assets. Do not create objects in this function.
 	preload () {
-		//fixes the sound being suspended without a click in Chrome
-		if (game.sound.context.state === 'suspended') {
-			game.sound.context.resume();
-		}
 		game.stage.disableVisibilityChange = true;  // keeps everything running when the stage is no longer focused
 	}
 

@@ -2,8 +2,6 @@
 //Start Screen
 import Phaser from 'phaser'
 
-import Phaser from 'phaser'
-
 export default class extends Phaser.State {
 	// Very first function called in the state.
 	init () {}
